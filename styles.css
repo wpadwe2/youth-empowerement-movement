@@ -1,0 +1,78 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('backiee-46118.jpg'); /* Path to your image */
+    background-size: cover; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #333;
+}
+
+p, ul {
+    color: #555;
+}
+
+/* Contact section styles */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#contact ul li i {
+    margin-right: 0.5rem;
+    color: #007bff;
+}
+
+#contact ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(255, 255, 255, 1); /* Semi-transparent background */
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
